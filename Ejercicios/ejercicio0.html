@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio de formulario</title>
 </head>
+
 <body>
     <h1>Formulario de Datos Personales</h1>
     <br>
-    <form action="">
+    <form action="" id="formulario">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre">
         <br> <br>
@@ -18,17 +20,20 @@
         <label for="correo">Email:</label>
         <input type="email" id="email" name="email" placeholder="@hotmail.com">
         <br><br>
-        <label for="start">Fecha de Nacimiento:</label>
-        <input type="date" id="start" name="trip-start" value="2018-07-22" min="1940-01-01" max="2030-12-31" />
+        <label for="fecha">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha" name="trip-start" value="2018-07-22" min="1940-01-01" max="2030-12-31" />
         <br><br>
         <label for="pais">Pais de Residencia:</label>
         <input type="text" id="pais" name="pais">
         <br><br>
 
-        <input type="submit"  value="Enviar" >
+        <input type="submit" value="Enviar">
         <br>
         <input type="submit" value="Estilo de Alto Contraste">
         <input type="submit" value="Estilo de Alto Contraste">
     </form>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
